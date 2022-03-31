@@ -16,7 +16,7 @@ Voici les dépendances que vous devez installer :
 
 Ensuite, clonez ce repository :
 
-`git clone https://github.com
+`git clone https://github.com/inacut/P6_Khadija_Benchaib
 
 Dans le front-end effectuer les opérations suivante:
 
