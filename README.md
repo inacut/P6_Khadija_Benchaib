@@ -1,5 +1,5 @@
 # P6_Khadija_Benchaib
-# PROJET 6 OPENCLASSROOMS PIQUANTE #
+# PROJET 6 OPENCLASSROOMS PIIQUANTE #
 
 
 # Ce projet est basé sur la création du backend pour un site de critiques de sauces piquantes.
