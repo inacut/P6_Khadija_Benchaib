@@ -15,7 +15,7 @@ exports.signup = (req, res, next) => {
   //chiffre l'email avant l'envoie dans la BD
   const emailCryptoJs = CryptoJS.HmacSHA256(
     req.body.email,
-    `$(process.env.CRYPTOJSKEY_EMAIL`
+    `${process.env.CRYPTOJSKEY_EMAIL}`
   ).toString();
 
   // Le mot de passe sera 'salé' 10 fois par la fonction de hashage 'bcrypt'
@@ -44,7 +44,7 @@ exports.signup = (req, res, next) => {
 exports.login = (req, res, next) => {
   const emailCryptoJs = CryptoJS.HmacSHA256(
     req.body.email,
-    `$(process.env.CRYPTOJSKEY_EMAIL`
+    `${process.env.CRYPTOJSKEY_EMAIL}`
   ).toString();
   User.findOne({ email: emailCryptoJs })
     .then((user) => {
